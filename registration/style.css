@@ -374,6 +374,24 @@ summary::-webkit-details-marker {
   .header__right {
     padding-right: 32px;
   }
+  .registration {
+    padding-top: 40px;
+  }
+  .registration-form {
+    width: 360px;
+  }
+  .registration-content {
+    width: 354px;
+  }
+  .registration-content__title {
+    font-size: 16px;
+  }
+  .registration-content__text {
+    font-size: 16px;
+  }
+  .registration-content__list {
+    font-size: 16px;
+  }
   .feedback {
     height: 614px;
     flex-direction: column;

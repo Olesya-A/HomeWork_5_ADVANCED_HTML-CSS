@@ -441,6 +441,30 @@ summary::-webkit-details-marker {
         padding-right: 32px;
     }
 
+    .registration {
+        padding-top: 40px;
+
+        &-form {
+            width: 360px;
+        }
+
+        &-content {
+            width: 354px;
+
+            &__title {
+                font-size: 16px;
+            }
+
+            &__text {
+                font-size: 16px;
+            }
+
+            &__list {
+                font-size: 16px;
+            }
+        }
+
+    }
 
 
     .feedback {
