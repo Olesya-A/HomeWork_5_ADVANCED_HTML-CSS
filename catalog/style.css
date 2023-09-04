@@ -65,6 +65,7 @@ summary::-webkit-details-marker {
   top: 75px;
   right: -232px;
   transition: right 0.3s;
+  z-index: 1;
 }
 .nav__heading {
   font-style: normal;
@@ -282,6 +283,24 @@ summary::-webkit-details-marker {
   line-height: normal;
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  justify-content: center;
+  border: 1px solid #EBEBEB;
+  padding: 11px 15px;
+  width: 283px;
+  margin: 32px auto 96px auto;
+}
+.pagination-number {
+  color: #C4C4C4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .benefit-box {
   min-height: 341px;
   background-color: #222;
@@ -416,4 +435,42 @@ summary::-webkit-details-marker {
 }
 .footer__icon:hover path {
   fill: #FFF;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+  .header__left {
+    padding-left: 32px;
+  }
+  .header__right {
+    padding-right: 32px;
+  }
+  .filter-sort {
+    justify-content: space-between;
+  }
+  .product {
+    margin-bottom: 16px;
+  }
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
+  .benefit-box {
+    height: 610px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+  }
+  .benefit {
+    width: 360px;
+  }
+  .feedback {
+    height: 614px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+  }
 }/*# sourceMappingURL=style.css.map */
