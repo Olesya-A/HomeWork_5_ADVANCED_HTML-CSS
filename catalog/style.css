@@ -238,7 +238,6 @@ summary::-webkit-details-marker {
 }
 
 .product-box {
-  margin-bottom: 128px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -291,6 +290,7 @@ summary::-webkit-details-marker {
   border: 1px solid #EBEBEB;
   padding: 11px 15px;
   width: 283px;
+  box-sizing: border-box;
   margin: 32px auto 96px auto;
 }
 .pagination-number {
